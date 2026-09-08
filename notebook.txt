@@ -1,0 +1,3 @@
+-> create a venv using command python -m venv myenv (python -m venv foldername)
+-> activate the venv using command source venv\Scripts\activate (for Windows)
+-> for openai API refer openai.continue reading the documentation at https://platform.openai.com
