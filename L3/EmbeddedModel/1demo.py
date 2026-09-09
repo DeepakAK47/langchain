@@ -2,9 +2,15 @@ from google import genai
 from google.genai import types
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
-#step1
-client = genai.Client(api_key="")
+# step 1
+api_key = os.getenv("GOOGLE_API_KEY")
+if not api_key:
+    raise RuntimeError("GOOGLE_API_KEY is not set")
+client = genai.Client(api_key=api_key)
 
 # step2
 documents = [
@@ -14,6 +20,7 @@ documents = [
 ]
 query = "What is Java programming language?"
 
+#### ----------DOUBT----------------------------------  
 # Create prefix functions
 def prepare_document(content):
     """Add title prefix to help model understand this is a document."""
@@ -45,7 +52,8 @@ query_response = client.models.embed_content(
     model="gemini-embedding-001",
     contents=[prepare_query(query)],
     config=types.EmbedContentConfig(
-        task_type="RETRIEVAL_QUERY"  # Tells API: "I'm embedding a question"
+        task_type="RETRIEVAL_QUERY",  # Tells API: "I'm embedding a question"
+        output_dimensionality=768
     )
 )
 query_embedding = query_response.embeddings[0].values
