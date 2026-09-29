@@ -8,5 +8,8 @@
 -> build a streamlit UI for summarizing the input text
 
 ### L5
--> use of TypeDict to conver the unstructure data into dictionary format
--> 
+-> use of TypeDict to convert the unstructure data into dictionary format
+-> use of Pydantic to validate the data and convert it into a structured format
+-> comparision between use of json schema and pydantic schemas
+
+### L6
