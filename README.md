@@ -12,4 +12,8 @@
 -> use of Pydantic to validate the data and convert it into a structured format
 -> comparision between use of json schema and pydantic schemas
 
-### L6
+### L6(Use of OutputParser)
+-> josn outparser using chain
+-> structure parser using chain
+-> pydantic outparser using chain
+-> strOutputparser using chain
