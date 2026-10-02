@@ -17,3 +17,9 @@
 -> structure parser using chain
 -> pydantic outparser using chain
 -> strOutputparser using chain
+
+### L7(Use of chains)
+1. Simple chain
+2. Sequential chain
+3. Conditional chain
+4. parallel chain
