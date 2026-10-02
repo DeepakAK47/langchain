@@ -1,22 +1,22 @@
 ### L3 
--> Interact with LLMs
--> Interact with chatmodels
--> Interact with HuggingFace models
+1. Interact with LLMs
+2. Interact with chatmodels
+3. Interact with HuggingFace models
 
 ### L4
--> built chatbot
--> build a streamlit UI for summarizing the input text
+1. built chatbot
+2. build a streamlit UI for summarizing the input text
 
 ### L5
--> use of TypeDict to convert the unstructure data into dictionary format
--> use of Pydantic to validate the data and convert it into a structured format
--> comparision between use of json schema and pydantic schemas
+1. use of TypeDict to convert the unstructure data into dictionary format
+2. use of Pydantic to validate the data and convert it into a structured format
+3. comparision between use of json schema and pydantic schemas
 
 ### L6(Use of OutputParser)
--> josn outparser using chain
--> structure parser using chain
--> pydantic outparser using chain
--> strOutputparser using chain
+1. josn outparser using chain
+2. structure parser using chain
+3. pydantic outparser using chain
+4. strOutputparser using chain
 
 ### L7(Use of chains)
 1. Simple chain
