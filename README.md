@@ -24,3 +24,5 @@
 3. Conditional chain
 4. parallel chain
 
+### L8(Use of Runnables)
+1. RunnablePassthrough
