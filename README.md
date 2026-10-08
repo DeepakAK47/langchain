@@ -26,3 +26,5 @@
 
 ### L8(Use of Runnables)
 1. RunnablePassthrough
+2. RunnableSequence
+3. RunnableParallel
