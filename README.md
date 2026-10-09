@@ -28,3 +28,5 @@
 1. RunnablePassthrough
 2. RunnableSequence
 3. RunnableParallel
+4. Runnable Lambda
+5. Runnable branching
