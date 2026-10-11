@@ -30,3 +30,9 @@
 3. RunnableParallel
 4. Runnable Lambda
 5. Runnable branching
+
+### L9(Documnet Loaders)
+1. TextLoader
+2. PDFLoader
+3. WordLoader
+4. HTMLLoader
