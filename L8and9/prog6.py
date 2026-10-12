@@ -41,4 +41,3 @@ result = parallel_chain.invoke({"topic": "The future of AI in healthcare"})
 
 print("TWITTER:\n", result["twitter"])
 print("\nLINKEDIN:\n", result["linkedin"])
-

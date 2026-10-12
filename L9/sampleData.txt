@@ -1,5 +1,0 @@
-LangChain is a framework for building LLM applications.
-It provides tools for prompts, models, chains, and memory.
-
-Document loaders read data from various sources.
-TextLoader reads plain text files.

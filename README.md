@@ -36,3 +36,6 @@
 2. PDFLoader
 3. WordLoader
 4. HTMLLoader
+
+### L10(Test Splitters)
+1.
