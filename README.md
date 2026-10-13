@@ -24,18 +24,21 @@
 3. Conditional chain
 4. parallel chain
 
-### L8(Use of Runnables)
+### L8and9(Use of Runnables)
 1. RunnablePassthrough
 2. RunnableSequence
 3. RunnableParallel
 4. Runnable Lambda
 5. Runnable branching
 
-### L9(Documnet Loaders)
+### L10(Documnet Loaders)
 1. TextLoader
 2. PDFLoader
 3. WordLoader
 4. HTMLLoader
 
-### L10(Test Splitters)
-1.
+### L11(Test Splitters)
+1. Length based
+2. Text based
+3. Document based
+4, Semantic based
