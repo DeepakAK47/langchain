@@ -15,7 +15,6 @@ A structured, hands-on repository documenting my learning path through LangChain
 - [L10 — Document Loaders](#l10--document-loaders)
 - [L11 — Text Splitters](#l11--text-splitters)
 - [Tech Stack](#-tech-stack)
-- [Setup](#-setup)
 
 ---
 
