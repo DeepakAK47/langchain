@@ -120,16 +120,15 @@ The lessons are organized chronologically in folders named `L3` through `L17`. E
 
 ---
 
-## 🚀 Getting Started
+## L18 — Modern Agent API
 
-### 1. Clone the repository
+- Use the modern LangChain agent API
+- Create agents with custom tools and system prompts
+- Invoke agents with user messages
+- Extract and display the final response
 
-```bash
-git clone https://github.com/DeepakAK47/langchain.git
-cd langchain
-```
 
-### 2. Create and activate a Python environment
+---
 
 Python 3.11 is used throughout the project.
 
