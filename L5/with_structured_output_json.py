@@ -1,3 +1,4 @@
+# generating with structured output using JSON schema using the Google GenAI client library
 from google import genai
 from google.genai import types
 import os
@@ -10,7 +11,7 @@ json_schema = {
     "type": "object",
     "properties": {
         "summary": {"type": "string"},
-        "key_themes": {
+        "key_themes": { 
             "type": "array",
             "items": {"type": "string"}
         },
@@ -50,4 +51,3 @@ response = client.models.generate_content(
 # Step 5: Parse the JSON response
 data = json.loads(response.text)
 print(f"Summary: {data['summary']}")
-

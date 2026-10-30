@@ -1,4 +1,4 @@
-# syntax with proper reason
+# generating with structured output using TypedDict schema using the Google GenAI client library
 import os
 from google import genai
 from google.genai import types
@@ -9,7 +9,7 @@ import json
 load_dotenv()
 
 # Schema
-
+ 
 class schemas(TypedDict):
     summary: str
     key_themes: List[str]
