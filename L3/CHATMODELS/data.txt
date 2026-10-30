@@ -1,0 +1,54 @@
+DEEPAK SINGH
++91-9891645586 | dsinghak6@gmail.com | linkedin.com/in/deepak-singh-ai-ds | github.com/DeepakAK47
+deepak-portfolio-wayg.onrender.com | leetcode.com/u/Deepak singh01082003
+New Delhi, India
+SUMMARY
+Aspiring AI/ML Engineer and competitive programmer with a strong passion for problem-solving, algorithms, and building
+large-scale recommendation systems. Deeply interested in Machine Learning and the emerging world of Agentic & Generative
+AI.
+EDUCATION
+Guru Gobind Singh Indraprastha University (USAR) New Delhi, India
+Bachelor of Technology in Artificial Intelligence and Data Science (CGPA: 8.62/10.0) 2024 – 2028
+TECHNICAL SKILLS
+Languages : Python, C++, SQL
+Machine Learning & AI: PyTorch, Hugging Face, Transformers, LangChain, LangGraph, RAG, NLP, Instruction Fine-Tuning
+Computer Vision : OpenCV, ResU-Net, Segmentation Models PyTorch (SMP), Albumentations, Medical Image Processing
+Data Science : NumPy, Pandas, Matplotlib, Hugging Face Datasets
+Visualization & Frontend : React, Streamlit
+Backend & DevOps : FastAPI, MongoDB, Git, MySQL, Streamlit Cloud
+Core Concepts : Data Structures & Algorithms, Object-Oriented Programming, Operating Systems, DBMS
+EXPERIENCE
+ML Intern, Indian Army (505 Army Base Workshop) June 2026 – Aug 2026
+Under Lt. Col. Narender Pal Singh Mann | Delhi Cantonment, Delhi
+– Developed a predictive engine health monitoring system for T-72 battle tanks using ensemble learning and anomaly detection,
+achieving 92% accuracy in early fault detection — shifting maintenance from reactive to proactive and reducing downtime by 30%.
+– Engineered an end-to-end time-series pipeline processing 12+ sensor parameters (temperature, vibration, pressure) using Pandas,
+NumPy, and other visualization libraries.
+– Collaborated directly with defense engineers to translate operational pain points into ML-driven solutions, influencing maintenance
+strategies across hundreds of tanks with the DGM.
+PROJECTS
+CerebraScan (Brain Tumor Segmentation) | PyTorch, ResU-Net, Streamlit [GitHub §] [Demo 2] Oct 2026
+– Developed an end-to-end medical imaging pipeline for brain tumor localization using a ResU-Net architecture (ResNet34 encoder)
+trained on the LGG MRI Segmentation dataset.
+– Achieved a Test Dice score of 0.85+ by handling severe class imbalance through a combined Dice + BCE Loss and patient-wise data
+splitting to prevent leakage.
+– Built an interactive Streamlit web interface for real-time MRI upload, tumor overlay visualization, and model confidence tracking;
+deployed on Streamlit Cloud.
+– Tech Stack: Python, PyTorch, segmentation-models-pytorch, Albumentations, OpenCV, Streamlit
+Movie Recommendation System | Python, Scikit-learn, NLTK, Streamlit [GitHub §] [Demo 2] Mar 2026 – May 2026
+– Built a content-based recommender on the TMDB 5000 dataset using genres, keywords, cast, crew, and overview.
+– Applied NLP preprocessing (tokenization, stopword removal, PorterStemmer) and TF-IDF vectorization to compute a cosine similarity
+matrix across 4,800+ movies.
+– Deployed a Streamlit web app on Render returning top-5 similar movies with live posters via the TMDB API.
+– Tech Stack: Python, Pandas, NumPy, Scikit-learn, NLTK, Streamlit, TMDB API, Git LFS
+WhatsApp Chat Analyzer | Python, Pandas, Regex, Matplotlib, Streamlit [GitHub §] [Demo 2] Jul 2025 – Sep 2025
+– Built a Streamlit web app that parses exported WhatsApp chats (.txt) using regex into a structured Pandas DataFrame, enabling
+user-level and date-range filtering for personalized analytics.
+– Visualized insights including most busy users, word clouds, most common words, and monthly/hourly activity charts using
+Matplotlib.
+– Tech Stack: Python, Pandas, NumPy, Regex, Matplotlib, Seaborn, WordCloud, Streamlit, Render
+AWARDS & CERTIFICATIONS
+• 2nd Position, Smart Delhi Ideation 2024 — Awarded by Hon’ble Lt. Governor of Delhi, Shri Vinai Kumar Saxena at Vigyan Bhawan.
+Ranked 2nd among 1000+ teams in a GGSIPU-organized innovation challenge.
+• 2nd Runner-Up, Smart India Hackathon 2025 — Built an AI-powered Traffic Control system maximizing throughput using ML and data
+science.

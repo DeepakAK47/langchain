@@ -29,7 +29,6 @@ The lessons are organized chronologically in folders named `L3` through `L17`. E
 
 - Interact with LLMs (completion-style models)
 - Interact with ChatModels (message-based models)
-- Interact with Hugging Face models via API
 
 ---
 
@@ -130,45 +129,7 @@ The lessons are organized chronologically in folders named `L3` through `L17`. E
 
 ---
 
-Python 3.11 is used throughout the project.
-
-```bash
-python -m venv .venv
-
-# Windows PowerShell
-.venv\Scripts\Activate.ps1
-```
-
-### 3. Install dependencies
-
-The shared dependency list is available at [`L3/requirements.txt`](L3/requirements.txt).
-
-```bash
-pip install -r L3/requirements.txt
-```
-
-Some lessons use additional integrations, such as Chroma, community retrievers, Streamlit, or search tools. Install the relevant LangChain integration package if it is not already available in your environment.
-
-### 4. Configure the Gemini API key
-
-Create a `.env` file in the project root:
-
-```env
-GOOGLE_API_KEY=your_google_api_key
-```
-
-The examples load this value with `python-dotenv`. Do not commit your `.env` file or API keys.
-
-### 5. Run an example
-
-```bash
-python L17/prog2.py
-python L12/prog1.py
-```
-
-The L12 example creates or updates its local Chroma data under `L12/chroma_db`.
-
----
+Python 3.11 is used throughout this langchain learning path.
 
 ## 📁 Repository Structure
 
@@ -184,6 +145,7 @@ L11/      Text splitters
 L12/      Chroma vector store and RAG
 L13to16/  Retrieval and search
 L17/      Tool calling
+L18/      Modern Agent API
 ```
 
 The repository also includes lesson-specific virtual environments and sample data. These are kept alongside the lessons for experimentation; a fresh environment is recommended for new setups.
@@ -204,10 +166,3 @@ The repository also includes lesson-specific virtual environments and sample dat
 | **Validation** | Pydantic, TypedDict |
 | **Environment** | python-dotenv |
 
----
-
-## Notes
-
-- Most examples are educational scripts and may require a configured API key or external service access.
-- Run scripts from the repository root so relative paths, such as `L12/chroma_db`, resolve correctly.
-- API model names and third-party integrations can change over time; check the relevant lesson before adapting an example for production use.

@@ -1,4 +1,4 @@
-# take to input and print their output using chain
+# usie of chain concept in LangChain using Google GenAI client library
 import os
 import string
 
@@ -24,7 +24,7 @@ template2 = PromptTemplate(
     input_variables=['text']
 )
 
-parser = StrOutputParser()
+parser = StrOutputParser()  # it defines the output type of the chain, in this case a string
 
 # Chain using LCEL
 chain = template1 | model | parser | template2 | model | parser
@@ -32,11 +32,3 @@ chain = template1 | model | parser | template2 | model | parser
 result = chain.invoke({'topic': 'black hole'})
 
 print(result)
-
-# How the Chain Works
-# template1 formats the topic into a prompt
-# model generates a detailed report
-# parser extracts the text as a string
-# template2 wraps the report into a summary prompt
-# model generates the summary
-# parser returns the final string
